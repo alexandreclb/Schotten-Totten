@@ -36,7 +36,7 @@ public class CarteClan extends Carte implements Comparable<CarteClan>{
 
     @Override
     public String toString() {
-        return "Carte Clan [nom=" + getNom() + ", force=" + force + ", couleur="+coul+"]";
+        return "Carte Clan [" + getNom() + "]";     //", force=" + force + ", couleur="+coul+"]";
     }
 	
     @Override
